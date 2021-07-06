@@ -5,33 +5,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
-  scrollbar-width: none;
-  scrollbar-color: #ff0000 #0d0d0d;
-}
-
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #0d0d0d;
-}
-
-*::-webkit-scrollbar-thumb {
-  background: rgb(255, 145, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 145, 0, 1) 0%,
-    rgba(255, 0, 0, 1) 100%
-  );
-  border-radius: 10px;
-  border: 2px none #ffffff;
-}
-
 .row {
   display: flex;
   align-items: center;
